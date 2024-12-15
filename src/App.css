@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+#root {
+  max-width: 100%;
+  text-align: center;
+  /*padding: 0 8% 0 8%;*/
+  font-family: "Didact Gothic", sans-serif;
+}
+#head {
+  display: flex;
+  background-color: #2B2C34;
+  max-width: 100%;
+  height: 140px;
+  /*padding: 27% 0% 27% 0%;*/
+  align-items: center;
+  padding: 0 8% 0 8%;
+  justify-content: center;
+}
+#logo {
+  /*background-color: #28a6e0;*/
+  width: 40%;
+  height: 80px;
+  justify-items:  left;
+  display: flex;
+}
+#logotop {
+  /*background-color: #cee028;*/
+  height: 100%;
+  height: 65px;
+}
+#menu {
+  /*background-color: #2cf125;*/
+  width: 60%;
+  height: auto;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: white;
+  font-size: 13pt;
+}
+
+#btnHome, #quem_somos, #portifolio, #fale_conosco{
+  /*background-color: #bf26d3;*/
+  margin: 1px;
+  padding: 8px;
+}
+
+#banner {
+  background-color: #85da41;
+  height: 200px;
+  display: flex;
+  padding: 0 6em 0 6em;
+  justify-content: center;
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-size:  100%;*/
+  object-fit: cover;
+}
+
+#budget {
+  background-color: #85da41;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  padding: 0 6em 0 6em;
+  justify-content: center;
+  /*align-items: center;*/
+  background-image: url("../img/banner_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+#bnrimg {
+  /*background-color: #f12525;*/
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+}
+#setimg{
+  /*background-color: blue;*/
+  width: 100%;
+  /*max-height: 95%;*/
+  /*margin: 1em;*/
+  background-image: url("../img/pc.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bnrtexttd {
+  /*background-color: #8420be;*/
+  width: 50%;
+  height: auto;
+  text-align: right;
+  display: block;
+  color: white;
+  padding: 8em 0 8em 0;
+}
+
+#bnrtext {
+  /*background-color: #327bdb;*/
+  max-width: 100%;
+  text-align: right;
+  padding: 6% 0 6% 0;
+}
+
+#btnbudget{
+  width: 60%;
+  height: 60px;
+  border-radius: 3em;
+}
+
+#service {
+  background-color: white;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  padding: 2em 6em 2em 6em;
+  justify-content: center;
+  /*gap: 1em;*/
+  flex-wrap: wrap;
+}
+#srv {
+  width: 48%;
+  height: auto;
+  /*background-color: #45a8eb;*/
+  display: flex;
+  margin: 1%;
+}
+#srvicon {
+  /*background-color: #cc2a76;*/
+  width: 20%;
+  height: auto;
+  justify-content: center;
+}
+#icons {
+  width: 50%;
+  margin: 2.5em 0 2.5em 0;
+}
+#srvtxt {
+  width: 80%;
+  height: auto;
+  text-align: left;
+  justify-content: center;
+}
+
+#foot {
+  background-color: #E6E7E8;
+  max-width: 100%;
+  height: 200px;
+  display: flex;
+  padding: 0 6em 2em 6em;
+  justify-content: center;
+}
+
+#ftmenu {
+  width: 20%;
+  /*background-color: #2cf125;*/
+  text-align: left;
+}
+#ftlogo{
+  width: 50%;
+  /*background: #bf26d3;*/
+  display: flex;
+}
+#logoft {
+  /*background-color: #cee028;*/
+  height: 100%;
+  height: 65px;
+  margin: 4em 0 4em 0;
+}
+#ftlogotxt{
+  /*background-color: #cee028;*/
+  margin: 3em;
+  /*color:;*/
+  text-align: right;
+}
+#ftmidia{
+  width: 30%;
+  /*background-color: aqua;*/
+  display: block;
+  text-align: right;
+  margin: 3em 0 0 0;
+  position: center;
+}
+#ftmidiarede {
+  width: 100%;
+  /*background-color: brown;*/
+  font-size: 20px;
+}
+#ftmidia, p {
+  max-width: 100%;
+}
+#iconsft {
+  /*background-color: brown;*/
+  height: auto;
+  margin: 0 0 3% 1em;
+  size: 80px;
+}
+#ftmidiarede h4 {
+  /*background-color: #85da41;*/
+  margin: 0% 0 3% 0 ;
+}
+
+#ftrede {
+  width: 100%;
+  display: flex;
+  /*background-color: blue;*/
+  justify-content: right;
+}
+
+#ftrede p{
+  /*background-color: #85da41;*/
+  /*margin: 0% 0 3% 0 ;*/
+  width: autp;
+  font-size: 20px; 
+  margin: 0; 
+}
+
+@media (min-width: 500px) {
+  .menuMov {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+
+  #head {
+     height: 96px;
+     padding: 0 2em 0 2em;
+  }
+  #logo {
+    height: 55px;
+  }
+  #logotop {
+    height: 55px;
+  }
+  .menu {
+    display: none;
+  }
+  #budget {
+    padding: 0 2em 0 2em;
+    justify-content: center;
+    display: block;
+  }
+  #bnrimg {
+    width: 100%;
+    /*background-color: #4d7929;*/
+    padding: 0;
+  }
+  #setimg {
+    /*background-size: 800px;*/
+    height: 300px;
+  }
+  
+  #bnrtexttd {
+    width: auto;
+    height: auto;
+    /*background-color: aquamarine;*/
+    text-align: left;
+    padding: 0;
+  }
+  #bnrtext {
+    /*background-color: rgb(140, 127, 255);*/
+    text-align: left;
+  }
+
+  #bnrtext p {
+    /*background-color: rgb(140, 127, 255);*/
+    text-align: justify;
+  }
+
+  #service {
+    padding: 1em 2em 0 1em;
+  }
+  #srv {
+    width: 100%;
+  }
+  #srvtxt p {
+    text-align: justify;
+  }
+  #foot {
+    display: block;
+    padding: 2em;
+    height: auto;
+  }
+  #ftlogo{
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+  }
+  #logoft {
+    width: 100%;
+    margin: 0;
+  }
+  #ftlogotxt{
+    width: auto;
+    text-align: justify;
+    margin: 0;
+  }
+  #ftmenu {
+    background-color: brown;
+    display: none;
+  }
+  #ftmidia{
+    width: 100%;
+    align-items: center;
+
+  }
+  #ftmidiarede {
+    width: auto;
+    align-items: center;
+    margin: 0;
+    display: block;
+  }
+
+  #iconsft {
+    width: auto;
+    margin: 0.3em;
+  }
+  #ftmidiaic {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  #ftmidiarede h4 {
+    width: auto;
+    text-align: center;
+  }
+  
+  #ftrede {
+    width: 80%;
+  }
+  
+  #ftrede p{
+    justify-content: cwnter;
+  }
+
+
+}
